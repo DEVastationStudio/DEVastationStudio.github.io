@@ -1446,8 +1446,14 @@ pre code {
 	.col-lg-6 {
 		-ms-flex: 0 0 50%;
 		flex: 0 0 50%;
-		max-width: 50%
+		max-width: 50%;
 	}
+	
+	#logo.col-lg-6 {
+		padding-top: 40px;
+		padding-left: 100px
+	}
+	
 	.col-lg-7 {
 		-ms-flex: 0 0 58.333333%;
 		flex: 0 0 58.333333%;
@@ -5064,10 +5070,6 @@ input[type=submit].btn-block {
 	margin-bottom: 0
 }
 
-.card-text:last-child {
-	margin-bottom: 0
-}
-
 .card-link:hover {
 	text-decoration: none
 }
@@ -5260,7 +5262,7 @@ input[type=submit].btn-block {
 	padding: .75rem 1rem;
 	margin-bottom: 1rem;
 	list-style: none;
-	background-color: #e9ecef;
+	background-color: #e1f6d2;
 	border-radius: .25rem
 }
 
