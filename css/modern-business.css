@@ -3,6 +3,17 @@
  * Copyright 2013-2020 Start Bootstrap
  * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-logomodern-business-nav/blob/master/LICENSE)
  */
+ 
+:root{
+  --bgColor: #718672;
+  --color1: #335834;
+  --color2: #7cd6b1;
+  --color3: #0da365;
+  --color4: #0a380a;
+  --color5: #ccffcf;
+  
+}
+
 body {
   padding-top: 56px;
 }
@@ -19,4 +30,8 @@ body {
 
 .portfolio-item {
   margin-bottom: 30px;
+}
+
+.text-1 {
+  color: #0da365;
 }

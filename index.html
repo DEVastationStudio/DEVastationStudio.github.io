@@ -7,8 +7,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="">
   <meta name="author" content="">
+  
+  <link rel="icon" type = "image/png" href = "favicon.png" sizes="256x256">
+  
 
-  <title>DEVstationStudio</title>
+  <title>DEVastation Studio</title>
 
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -18,27 +21,26 @@
 
 </head>
 
-<body>
+<body style="background-color: var(--bgColor);">
 
   <!-- Navigation -->
-  <nav class="navbar fixed-top navbar-expand-lg navbar-dark fixed-top">
+  <nav class="navbar fixed-top navbar-expand-lg navbar-dark fixed-top " style="background-color: var(--color4);">
     <div class="container">
-      <a class="navbar-brand" href="index.html"><img src="img/logo.png" alt="logo" width="158" height="100"></a>
-      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" 
-	  aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      <a class="navbar-brand" href="index.html"><img src="img/logo.png" alt="logo" class="img-fluid" style="width:50%"/></a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a class="nav-link" href="about.html">About</a>
+            <a class="nav-link" href="about.html" style="color: var(--color3);">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="portfolio.html">Games</a>
+            <a class="nav-link" href="games.html" style="color: var(--color3);">Games</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="contact.html">Contact</a>
-          </li>     
+            <a class="nav-link" href="contact.html" style="color: var(--color3);">Contact</a>
+          </li>
         </ul>
       </div>
     </div>
@@ -52,66 +54,94 @@
       </ol>
       <div class="carousel-inner" role="listbox">
         <!-- Slide One - Set the background image for this slide in the line below -->
-        <div class="carousel-item active" style="background-image: url('img/improvinci_header.png'); height: 648px; width: 1900px;">
-          <div class="carousel-caption d-none d-md-block">
-            <h1 class="improvinci">IMPROVINCI</h1>
-            <p class="improvinci">Get your brushes ready!</p>
+        <div class="carousel-item active" style="background-image: url('img/improvinci-carousel.png')">
+          <div class="d-flex justify-content-center w-100 h-100"><img src="img/improvinci-logo2.png" class="img-fluid" style="vertical-align: super; margin: auto" alt="IMPROVINCI"/></div>
+            <div class="carousel-caption d-md-block">
+            <p style="color: var(--color2); font-weight: bold;">A fun, competitive drawing game. Can't draw? Even better.</p>
           </div>
         </div>
         <!-- Slide Two - Set the background image for this slide in the line below -->
-        <div class="carousel-item" style="background-image: url('img/kiwin_header.png');  height: 648px; width: 1900px;">
-          <div class="carousel-caption d-none d-md-block">
-            <h1 class="kiwin">KIWIN</h1>
-            <p class="kiwin">Coming soon...</p>
+        <div class="carousel-item" style="background-image: url('img/eldritchess-carousel.png')">
+          <div class="d-flex justify-content-center w-100 h-100"><img src="img/eldritchess-logo.png" class="img-fluid" style="vertical-align: super; margin: auto" alt="IMPROVINCI"/></div>
+          <div class="carousel-caption d-md-block">
+            <p style="color: var(--color2); font-weight: bold;">Unspeakable horrors. Horrifying creatures. Sickening strategy. An otherwordly take on a tabletop classic.</p>
           </div>
         </div>
       </div>
-	  
       <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
+        <span class="sr-only" style="color: var(--color2); font-weight: bold;">Previous</span>
       </a>
-	  
       <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
+        <span class="sr-only" style="color: var(--color2); font-weight: bold;">Next</span>
       </a>
-	  
     </div>
   </header>
 
   <!-- Page Content -->
   <div class="container">
 
-    <!-- Portfolio Section -->
-    <h1 class="my-4">Welcome to our Portfolio</h1>
+    <h1 class="my-4" style="color: black; font-weight: bold;">Welcome to DEVastation Studio!</h1>
 
     <div class="row">
-      <div class="col-lg-4 col-sm-6 portfolio-item">
-        <div class="card h-100">
-          <a href="improvinci.html"><img class="card-img-top" src="img/improvinci.png" alt="Improvinci"></a>
-          <div class="card-body" id="project">
+      <div class="col-lg-6 col-sm-12 portfolio-item">
+        <div class="card h-100" style="background-color: var(--color1); color: var(--color2);">
+          <a href="improvinci.html"><img class="card-img-top" src="img/improvinci.png" alt=""></a>
+          <div class="card-body">
             <h4 class="card-title">
-              <a href="improvinci.html" class="home">IMPROVINCI</a>
+              <a href="improvinci.html" style="color: var(--color3); font-weight: bold;">Improvinci</a>
             </h4>
-            <p class="card-text">At your local museum, acclaimed art critic Vincent has created
-			a contest to test your ability to improvise and critique art. Participate with your friends!</p>
+            <p class="card-text">At your local museum, acclaimed art critic Vincent has created a contest to test your ability to improvise and critique art. Participate with your friends!</p>
           </div>
         </div>
       </div>
-      <div class="col-lg-4 col-sm-6 portfolio-item" >
-        <div class="card h-100">
-          <a href="kiwin.html"><img class="card-img-top" src="img/kiwin.png" alt="KiWin" style="height:235px"></a>
-          <div class="card-body" id="project">
+      <div class="col-lg-6 col-sm-12 portfolio-item">
+        <div class="card h-100" style="background-color: var(--color1); color: var(--color2);">
+          <a href="eldritchess.html"><img class="card-img-top" src="img/eldritchess.png" alt=""></a>
+          <div class="card-body">
             <h4 class="card-title">
-              <a href="kiwin.html" class="home">KiWin</a>
+              <a href="eldritchess.html" style="color: var(--color3); font-weight: bold;">Eldritchess</a>
             </h4>
-            <p class="card-text">The game will arrive soon, but for the moment we leave you a hint: it is about kiwis...</p>
+            <p class="card-text">You're sitting across another person in a dark forest. Before you lies a board filled with horrifying pieces. Whether you know it or not, you will soon settle a dispute between two ancient beings way beyond your comprehension.</p>
           </div>
         </div>
       </div>
     </div>
     <!-- /.row -->
+    <hr>
+    <!-- Features Sect
+      ion -->
+    <div class="row">
+      <div class="col-lg-6">
+        <h2>Merchandising</h2>
+        <p>Want to support DEVastation Studio? Then you're in the right place!</p>
+        <p>Our merchandising isn't ready just yet, but these are the kind of things that you can expect:</p>
+        <ul>
+          <li>T-shirts</li>
+          <li>Badges</li>
+          <li>...</li>
+          <li>...</li>
+          <li>And much more!</li>
+        </ul>
+      </div>
+      <div class="col-lg-6">
+        <img class="img-fluid rounded" src="http://placehold.it/700x450" alt="">
+      </div>
+    </div>
+    <!-- /.row -->
+
+    <hr>
+
+    <!-- Call to Action Section -->
+    <div class="row mb-4">
+      <div class="col-md-8" >
+        <p>Any questions? Go ahead and send us an e-mail!</p>
+      </div>
+      <div class="col-md-4">
+        <a class="btn btn-lg btn-secondary btn-block" href="mailto:DEVastationStudio@gmail.com" style="background-color: var(--color1); color: var(--color2);">Contact us!</a>
+      </div>
+    </div>
 
   </div>
   <!-- /.container -->
@@ -119,7 +149,7 @@
   <!-- Footer -->
   <footer class="py-5 bg-dark">
     <div class="container">
-      <p class="m-0 text-center text-white">DEVstationStudio &copy; 2020</p>
+      <p class="m-0 text-center text-white">Copyright &copy; DEVastation Studio 2020-2021</p>
     </div>
     <!-- /.container -->
   </footer>
@@ -127,7 +157,7 @@
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  
+
 </body>
 
 </html>

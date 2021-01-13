@@ -8,7 +8,8 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>About-DEVstationStudio</title>
+  <link rel="icon" type = "image/png" href = "favicon.png" sizes="256x256">
+  <title>About - DEVastation Studio</title>
 
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -18,56 +19,55 @@
 
 </head>
 
-<body>
+<body style="background-color: var(--bgColor);">
 
- <!-- Navigation -->
-  <nav class="navbar fixed-top navbar-expand-lg navbar-dark fixed-top">
+  <!-- Navigation -->
+  <nav class="navbar fixed-top navbar-expand-lg navbar-dark fixed-top " style="background-color: var(--color4);">
     <div class="container">
-      <a class="navbar-brand" href="index.html"><img src="img/logo.png" alt="logo" width="158" height="100"></a>
-      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" 
-	  aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      <a class="navbar-brand" href="index.html"><img src="img/logo.png" alt="logo" class="img-fluid" style="width:50%"/></a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a class="nav-link" href="about.html">About</a>
+            <a class="nav-link" href="about.html" style="color: var(--color3);">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="portfolio.html">Games</a>
+            <a class="nav-link" href="games.html" style="color: var(--color3);">Games</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="contact.html">Contact</a>
-          </li>     
+            <a class="nav-link" href="contact.html" style="color: var(--color3);">Contact</a>
+          </li>
         </ul>
       </div>
     </div>
   </nav>
-  
+
   <!-- Page Content -->
   <div class="container">
 
     <!-- Page Heading/Breadcrumbs -->
-   <h1 class="mt-4 mb-3"><br></h1>
 
-    <ol class="breadcrumb">
+    <hr><hr><hr><hr>
+
+    <ol class="breadcrumb" style="background-color: var(--color5)">
       <li class="breadcrumb-item">
-        <a href="index.html">Home</a>
+        <a href="index.html" style="color: var(--color3);">Home</a>
       </li>
-      <li class="breadcrumb-item active">About</li>
+      <li class="breadcrumb-item active" style="color: var(--color2);">About</li>
     </ol>
 
     <!-- Intro Content -->
     <div class="row">
-      <div class="col-lg-6" id="logo">
-        <img class="img-fluid rounded mb-4" src="img/logo.png" alt="logo" >
-      </div>
+      <!--<div class="col-lg-6">
+        <img class="img-fluid rounded mb-4" src="img/logo.png" style="margin: auto" alt="">
+      </div>-->
       <div class="col-lg-6">
         <h2>About Us</h2>
-        <p>We are a group of students from the URJC who have jumped into developing games for the enjoyment of as many people as possible.</p>
-        <p>We specialize in video games of the genre "PARTY GAME", ideal for the whole family or a group of friends who want to try new experiences and have fun together.</p>
-        <p>Right now we have two projects, <b>IMPROVINCI</b> and <b>KiWin (soon)</b>, which you can take a look at on this 
-		 <a href="portfolio.html"><u>website</u></a>.</p>
+        <p>We are a group of students from the King Juan Carlos University who are developing games, with a focus on online mutiplayer.</p>
+        <p>Our first game, <a href="improvinci.html" style="color: var(--color4); font-weight: bold;">Improvinci</a>, is a party game that's perfect for playing with your family or your friends. </p>
+        <p>Our second game, <a href="eldritchess.html" style="color: var(--color4); font-weight: bold;">Eldritchess</a>, is a competitive strategy game with familiar pieces and exciting strategies.</p>
       </div>
     </div>
     <!-- /.row -->
@@ -76,83 +76,66 @@
     <h2>Our Team</h2>
 
     <div class="row">
-      <div class="col-lg-4 mb-4">
-        <div class="card h-100 text-center">
-          <img class="card-img-top" src="img/RPablo.png" alt="Pablo">
+      <div class="col-lg-3 col-sm-6">
+        <div class="card h-100 text-center" style="background-color: var(--color1); color: var(--color2);">
+          <img class="card-img-top" src="img/pablo.png" alt="">
           <div class="card-body">
-            <h4 class="card-title">Pablo</h4>
-            <h6 class="card-subtitle mb-2 text-muted">Programmer</h6>
+            <h4 class="card-title" style="color: var(--color3); font-weight: bold;">Pablo López Pérez-Esparza</h4>
+            <h6 class="card-subtitle mb-2" style="color: var(--color2);">Programmer</h6>
+            <p class="card-text"></p>
           </div>
           <div class="card-footer">
-            <a href="#">p.lopezpe.2017@alumnos.urjc.es</a>
+            <a href="mailto:p.lopezpe.2017@alumnos.urjc.es" style="color: var(--color3);">p.lopezpe.2017@alumnos.urjc.es</a>
           </div>
         </div>
       </div>
-      <div class="col-lg-4 mb-4">
-        <div class="card h-100 text-center">
-          <img class="card-img-top" src="img/RImanol.png" alt="Imanol">
+      <div class="col-lg-3 col-sm-6">
+        <div class="card h-100 text-center" style="background-color: var(--color1); color: var(--color2);">
+          <img class="card-img-top" src="img/imanol.png" alt="">
           <div class="card-body">
-            <h4 class="card-title">Imanol</h4>
-            <h6 class="card-subtitle mb-2 text-muted">Programmer</h6>
+            <h4 class="card-title" style="color: var(--color3); font-weight: bold;">Imanol Díaz Servando</h4>
+            <h6 class="card-subtitle mb-2" style="color: var(--color2);">Programmer</h6>
+            <p class="card-text"></p>
           </div>
           <div class="card-footer">
-            <a href="#">i.diazs.2017@alumnos.urjc.es</a>
+            <a href="mailto:i.diazs.2017@alumnos.urjc.es" style="color: var(--color3);">i.diazs.2017@alumnos.urjc.es</a>
+          </div>
+        </div>
+      </div>      <div class="col-lg-3 col-sm-6">
+        <div class="card h-100 text-center" style="background-color: var(--color1); color: var(--color2);">
+          <img class="card-img-top" src="img/belen.png" alt="">
+          <div class="card-body">
+            <h4 class="card-title" style="color: var(--color3); font-weight: bold;">Belén González Mateo</h4>
+            <h6 class="card-subtitle mb-2" style="color: var(--color2);">3D Artist</h6>
+            <p class="card-text"></p>
+          </div>
+          <div class="card-footer">
+            <a href="mailto:b.gonzalezm.2017@alumnos.urjc.es" style="color: var(--color3);">b.gonzalezm.2017@alumnos.urjc.es</a>
+          </div>
+        </div>
+      </div>      <div class="col-lg-3 col-sm-6">
+        <div class="card h-100 text-center" style="background-color: var(--color1); color: var(--color2);">
+          <img class="card-img-top" src="img/maria.png" alt="">
+          <div class="card-body">
+            <h4 class="card-title" style="color: var(--color3); font-weight: bold;">María Fuentes Rodríguez</h4>
+            <h6 class="card-subtitle mb-2" style="color: var(--color2);">2D Artist</h6>
+            <p class="card-text"></p>
+          </div>
+          <div class="card-footer">
+            <a href="mailto:m.fuentes.2017@alumnos.urjc.es" style="color: var(--color3);">m.fuentes.2017@alumnos.urjc.es</a>
           </div>
         </div>
       </div>
-      <div class="col-lg-4 mb-4">
-        <div class="card h-100 text-center">
-          <img class="card-img-top" src="img/RTomas.png" alt="Tomas">
-          <div class="card-body">
-            <h4 class="card-title">Tomas</h4>
-            <h6 class="card-subtitle mb-2 text-muted">Programmer</h6>
-          </div>
-          <div class="card-footer">
-            <a href="#">t.perez.2016@alumnos.urjc.es</a>
-          </div>
-        </div>
-      </div>
-    </div>
-	
-	 <div class="row"  style="justify-content:center"  >
-	 
-      <div class="col-lg-4 mb-4" >
-        <div class="card h-100 text-center">
-          <img class="card-img-top" src="img/RBelen.png" alt="Belen">
-          <div class="card-body">
-            <h4 class="card-title">Belen</h4>
-            <h6 class="card-subtitle mb-2 text-muted">Artist</h6>
-          </div>
-          <div class="card-footer">
-            <a href="#">b.gonzalezm.2017@alumnos.urjc.es</a>
-          </div>
-        </div>
-      </div>
-	  
-      <div class="col-lg-4 mb-4">
-        <div class="card h-100 text-center">
-          <img class="card-img-top" src="img/RMaria.png" alt="Maria">
-          <div class="card-body">
-            <h4 class="card-title">Maria</h4>
-            <h6 class="card-subtitle mb-2 text-muted">Position</h6>
-          </div>
-          <div class="card-footer">
-            <a href="#">m.fuentes.2017@alumnos.urjc.es</a>
-          </div>
-        </div>
-      </div>
-      
     </div>
     <!-- /.row -->
 
   </div>
   <!-- /.container -->
-
-  
+<hr>
   <!-- Footer -->
   <footer class="py-5 bg-dark">
     <div class="container">
-      <p class="m-0 text-center text-white">DEVstationStudio &copy; 2020</p>
+      <p class="m-0 text-center text-white">Copyright &copy; DEVastation Studio 2020-2021</p>
     </div>
     <!-- /.container -->
   </footer>
